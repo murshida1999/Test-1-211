@@ -1,8 +1,9 @@
+/* Common style */
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Vollkorn', serif;
-    list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
     outline: none;
@@ -39,6 +40,12 @@ html {
     box-shadow: 0 1rem 3rem var(--grey-color);
     overflow: hidden;
 }
+
+
+/* End of common style */
+
+
+/* Header style */
 
 .header {
     width: 100%;
@@ -163,4 +170,27 @@ html {
 }
 
 
-/* End of Header */
+/* End of Header Style */
+
+
+/* Chapter 1 Style */
+
+.s1 {
+    padding-left: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    width: 100%;
+    height: 100%;
+    background: url(images/brick\ wall.png) center no-repeat;
+    background-size: cover;
+    list-style-type: square;
+    font-size: 1.5rem;
+}
+
+.title {
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+
+/* End of Chapter 1 Style */
