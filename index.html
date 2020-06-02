@@ -5,81 +5,331 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,700,900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="images/logo.png" type="image/gif" sizes="16x16">
     <title>CMT 222 SYSTEM ANALYSIS AND DESIGN </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Vollkorn:400,400i,600,700,900&display=swap"
+    />
+    <link rel="icon" href="images/logo.png" type="image/gif" sizes="16x16">
+
 
 
 
 </head>
 
 <body>
-
     <div class="container">
+        <!-- Navigation Bar -->
+        <nav>
+
+            <ul>
+                <li>
+                    <a href="#home" class="nav-link ">Home</a>
+                </li>
+                <li>
+                    <a href="#s1" class="nav-link ">Use Cases & User Goals</a>
+                </li>
+                <li>
+                    <a href="#events" class="nav-link ">Events & Use Cases</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">Section 3</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">Use Case Diagrams</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">Our Team</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="navbar-wrapper">
+            <nav class="navbar">
+                <div class="close-navbar-icon navbar-icon">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                </div>
+                <div class="nav-list">
+
+
+
+
+
+
+
+                </div>
+            </nav>
+        </div>
+
+        <!-- End of Navigation Bar -->
 
         <!-- Header -->
-        <header class="header center">
-            <div class="header-text">
-                <h1 class="heading">System Analysis and Design</h1>
-                <p class="home-paragraph">
-                    To equip students with the fundamental knowledge in project planning, user requirements analysis and design of computer systems using object-oriented approaches
-                </p>
-            </div>
-            <img src="images/sakura petals.png" alt="Header Image" class="header-image" />
-            <div class="logo">
-                <h1>
-                    <span class="center">W</span>
-                    <span class="center">E</span>
-                    <span class="center">L</span>
-                    <span class="center">C</span>
-                    <span class="center">O</span>
-                    <span class="center">M</span>
-                    <span class="center">E</span>
-                </h1>
-                <audio controls autoplay>  
+        <div id="home">
+            <header class="header center">
+                <div class="header-text">
+                    <h1 class="heading">System Analysis and Design</h1>
+                    <p class="home-paragraph">
+                        To equip students with the fundamental knowledge in project planning, user requirements analysis and design of computer systems using object-oriented approaches
+                    </p>
+                </div>
+                <img src="images/sakura petals.png" alt="Header Image" class="header-image" />
+                <div class="logo">
+                    <h1>
+                        <span class="center">W</span>
+                        <span class="center">E</span>
+                        <span class="center">L</span>
+                        <span class="center">C</span>
+                        <span class="center">O</span>
+                        <span class="center">M</span>
+                        <span class="center">E</span>
+                    </h1>
+                    <audio controls autoplay>  
                     <source src="images/backgroundmusic.mp3" type="audio/mpeg" autoplay="autoplay">  
                 </audio>
 
 
-            </div>
-        </header>
+                </div>
+            </header>
+        </div>
         <!-- End of Header -->
-        <section class="s1">
-            <div>
-                <h1 class="s1-heading">Event,Use Cases and User Goals</h1>
 
-                <h2 class="title">What is Use Case?</h2>
-                <ul>
-                    <li>Use case— an activity that the system performs, usually in response to a request by a user</li>
-                    <li>Use cases define functional requirements</li>
-                    <li>Analysts decompose the system into a set of use cases (functional decomposition) </li>
-                    <li>Two techniques for Identifying use cases
-                        <ol>
-                            <li>User goal technique</li>
-                            <li>Event decomposition technique</li>
-                        </ol>
-                    </li>
-                    <li>Name each use case using Verb-Noun</li>
-                </ul>
-                <h2 class="title"> User Goals Techniques</h2>
-                <ol>
-                    <li>Identify all the potential users for the new system</li>
-                    <li>Classify the potential users in terms of their functional role (e.g., shipping, marketing, sales)</li>
-                    <li>Further classify potential users by organizational level (e.g., operational, management, executive)</li>
-                    <li>For each type of user, interview them to find a list of specific goals they will have when using the new system (current goals and innovative functions to add value)</li>
-                </ol>
-                <h2 class="title">Some RMO CSMS Users and Goals</h2>
-                <img src="images/usergoaltechnique.PNG" alt="UserGoals Image" class="s1-image">
+
+        <!-- Section 1 -->
+        <div id="s1">
+            <div class="section-header">
+                <h1 class="s-heading">Use Cases and User Goals</h1>
+                <div class="underline"></div>
+            </div>
+            <h2 class="title">What is Use Case?</h2>
+            <ul>
+                <li>Use case— an activity that the system performs, usually in response to a request by a user</li>
+                <li>Use cases define functional requirements</li>
+                <li>Analysts decompose the system into a set of use cases (functional decomposition) </li>
+                <li>Two techniques for Identifying use cases
+                    <ol>
+                        <li>User goal technique</li>
+                        <li>Event decomposition technique</li>
+                    </ol>
+                </li>
+                <li>Name each use case using Verb-Noun</li>
+            </ul>
+            <h2 class="title"> User Goals Techniques</h2>
+            <ol>
+                <li>Identify all the potential users for the new system</li>
+                <li>Classify the potential users in terms of their functional role (e.g., shipping, marketing, sales)</li>
+                <li>Further classify potential users by organizational level (e.g., operational, management, executive)</li>
+                <li>For each type of user, interview them to find a list of specific goals they will have when using the new system (current goals and innovative functions to add value)</li>
+            </ol>
+            <h2 class="title">Some RMO CSMS Users and Goals</h2>
+            <img src="images/usergoaltechnique.PNG" alt="UserGoals Image" class="s1-image">
+
+        </div>
+        <!-- End of Section 1 -->
+
+        <!-- Section 2 -->
+        <div id="events">
+            <div class="section-header">
+                <h1 class="s-heading">Events and Use Cases</h1>
+                <div class="underline"></div>
+            </div>
+            <img src="images/eventandusecase.PNG" alt="Event Image" class="s-image">
+
+            <h2 class="title"> Types of Events</h2>
+            <div class="cards-wrapper">
+                <div class="card">
+                    <div class="side">
+                        <img src="images/pastel1.jpg" alt="pastel1" height="150" width="150" class="card-image" />
+                        <h1 class="events-name">External Event</h1>
+                        <ul class="card-list">
+                            <li class="card-list-item">Occurs outside the system</li>
+                            <li class="card-list-item">Usually initiated by an external agent or actor</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="side">
+                        <img src="images/pastel2.jpg" alt="pastel2" height="150" width="150" class="card-image" />
+                        <h1 class="events-name">Temporal Event</h1>
+                        <ul class="card-list">
+                            <li class="card-list-item">Occurs as a result of reaching a point in time</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="side">
+                        <img src="images/pastel3.jpg" alt="pastel3" height="150" width="150" class="card-image" />
+                        <h1 class="events-name">State Event</h1>
+                        <ul class="card-list">
+                            <li class="card-list-item">Occurs when something happens inside the system that triggers some process</li>
+                            <li class="card-list-item">Example :reorder point is reached for inventory item</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <h2 class="title"> External and Temporal Events Checklist</h2>
+            <div class="cards-wrapper">
+                <table id="table">
+                    <tr>
+                        <th>External Event Checklist</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>External agent or actor wants something resulting in a transaction</li>
+                                <li>External agent or actor wants some information</li>
+                                <li>External data changed and needs to be updated</li>
+                                <li>Management wants some information</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                <table id="table">
+                    <tr>
+                        <th>Temporal Event Checklist</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Internal outputs needed at points in time</li>
+                                <ol>
+                                    <li>Management reports (summary or exception)</li>
+                                    <li>Operational reports (detailed transactions)</li>
+                                    <li>Internal statements and documents (including payroll)</li>
+                                </ol>
+                                <li>External outputs needed at points of time</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+
+                </table>
 
             </div>
+        </div>
+
+        <!-- End of Section 2 -->
+
+        <!-- Section 3 -->
+        <!-- End of Section 3 -->
+
+        <!-- Section 4 -->
+
+        <section class="s4">
+            <div class="section-header">
+                <h1 class="s-heading">Use Case Diagrams</h1>
+                <div class="underline"> </div>
+            </div>
+            <h2 class="title">What is Use Case Diagram?</h2>
+            <ul>
+                <li>Use case diagram— a UML model used to graphically show uses cases and their relationships to actors</li>
+                <li>Recall UML is Unified Modeling Language, the standard for diagrams and terminology for developing information systems</li>
+                <li>Actor is the UML name for a end user </li>
+                <li>Automation boundary— the boundary between the computerized portion of the application and the users who operate the application</li>
+            </ul>
+            <h2 class="title"> Use Case Diagrams Symbols</h2>
+            <img src="images/ucdsymbols.PNG" alt="ucdsymbols Image" class="s1-image">
+            <h2 class="title">Use Case Diagrams : The include relationships </h2>
+            <p id=s4p>A relationship between use cases where one use case is stereotypically included within the other use case— like a called subroutine. Arrow points to subroutine </p>
+            <img src="images/include.PNG" alt="Include Image" class="s1-image">
+            <h2 class="title">Steps to Draw Use Case Diagrams </h2>
+            <ol>
+                <li>Identify all the stakeholders and users who would benefit by seeing a use case diagram</li>
+                <li>Determine what each stakeholder or user needs to review in a use case diagram: each subsystem, for each type of user, for use cases that are of interest</li>
+                <li>For each potential communication need, select the use cases and actors to show and draw the use case diagram. There are many software packages that can be used to draw use case diagrams</li>
+                <li>Carefully name each use case diagram and then note how and when the diagram should be used to review use cases with stakeholders and users</li>
+            </ol>
+
+            <iframe id="tutvid" width="560" height="315" src="https://www.youtube.com/embed/zid-MVo7M-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </section>
+        <!-- End of Section 4 -->
+
+        <!-- Section 5 : Our Team -->
+        <section class="team">
+            <div class="section-header">
+                <h1 class="s-heading">Our Team</h1>
+                <div class="underline"></div>
+            </div>
+            <div class="cards5-wrapper">
+                <div class="card" data-tilt>
+                    <div class="card-img-wrapper">
+                        <img src="images/murshida.jpg" alt="murshida">
+                    </div>
+                    <div class="card-info">
+                        <h2>Nurul Murshida bt Omar Bakri</h2>
+                        <h3>144184</h3>
+                        <p>
+                            “Live for each second without hesitation.” — Elton John
+                        </p>
+                    </div>
+                </div>
+                <div class="card" data-tilt>
+                    <div class="card-img-wrapper">
+                        <img src="images/adila.jpg" alt="adila">
+                    </div>
+                    <div class="card-info">
+                        <h2>Nurul Adilah bt Mohd Asri</h2>
+                        <h3>142083</h3>
+                        <p>
+                            “ You only live once, but if you do it right, once is enough.” — Mae West.
+                        </p>
+                    </div>
+                </div>
+                <div class="card" data-tilt>
+                    <div class="card-img-wrapper">
+                        <img src="images/farah.jpg" alt="farah">
+                    </div>
+                    <div class="card-info">
+                        <h2>Farah Mursyidah bt Fuahaidi</h2>
+                        <h3>144395</h3>
+                        <p>
+                            “Life is a succession of lessons which must be lived to be understood.” — Helen Keller
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cards5-wrapper">
+                <div class="card" data-tilt>
+                    <div class="card-img-wrapper">
+                        <img src="images/aisyah.jpg" alt="aisyah">
+                    </div>
+                    <div class="card-info">
+                        <h2>Nur Aisyah bt Ahmad Zaki</h2>
+                        <h3>141870</h3>
+                        <p>
+                            “Life is really simple, but men insist on making it complicated.” — Confucius
+                        </p>
+                    </div>
+                </div>
+                <div class="card" data-tilt>
+                    <div class="card-img-wrapper">
+                        <img src="images/ainil.jpg" alt="ainil">
+                    </div>
+                    <div class="card-info">
+                        <h2>Ainil Hawa binti Abdul Rozak</h2>
+                        <h3>141928</h3>
+                        <p>
+                            “The healthiest response to life is joy.” — Deepak Chopra
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
         </section>
 
-        <!-- Chapter 1 -->
+        <!-- End of Section 5  -->
 
-        <!-- End of Chapter 1 -->
     </div>
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="tilt.js"></script>
 </body>
 
 </html>
